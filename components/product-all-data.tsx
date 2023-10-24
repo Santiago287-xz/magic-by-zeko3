@@ -23,8 +23,7 @@ export default function ProductAllData({
             {selected_product.metadata.product_tipe}
           </h3>
           <p className="py-12">
-            The Pwnage Precision Pad is a hybrid control gaming mouse pad made
-            for easy micro-adjustments and precise tracking.
+          Nuestro mousepad es una combinación de 2 telas (Control y Speed) las cuales otorgan la mejor precisión del mercado y una larga durabilidad.
           </p>
         </div>
         <Divider />
@@ -39,11 +38,11 @@ export default function ProductAllData({
             >
               <Link className="mt-8 rounded-2xl" href={"/tienda/" + product.id}>
                 <Image
-                  alt={product.name}
-                  src={product.images[0]}
+                  alt={product.metadata.image_1}
+                  src={product.metadata.image_1}
                   className="z-0 h-4/5 object-cover"
                 />
-                <b className="absolute w-max z-10 bottom-0 left-1/2 -translate-x-1/2 text-foreground-700 p-1 px-4 rounded-3xl flex items-center sm:text-base text-sm">
+                <b className="absolute w-max z-10 bottom-0 left-1/2 -translate-x-1/2 text-foreground-700 rounded-3xl flex items-center sm:text-base text-sm">
                   <span>{(product.name).split(' ')[1]}</span>
                 </b>
               </Link>

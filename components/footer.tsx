@@ -11,9 +11,9 @@ export default function Footer() {
           <div className="flex flex-col gap-2 items-center lg:flex-row lg:justify-evenly lg:items-start w-full">
             <div className="flex flex-col items-center lg:items-start gap-2">
               <p className="text-slate-400 text-xl">Métodos de Pago</p>
-              <div className="flex items-center justify-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4">
                 <Image
-                  src="https://cdn.shopify.com/s/files/1/1573/2927/files/accepted-payments.png?v=1615785430"
+                  src="https://media.discordapp.net/attachments/1019381524149305426/1165128333432987690/accepted-payments.png?ex=6545b951&is=65334451&hm=846936e1cf7365210d42bd519da506f7febcdca37460bd736830bc9fd75fae6c&="
                   alt="Método de Pago"
                   width={320}
                   height={320}
@@ -26,19 +26,17 @@ export default function Footer() {
               </p>
               <Button
                 as={Link}
-                href="https://webcodebuilders.repl.co/"
                 className="flex items-center gap-1 justify-start text-slate-200"
                 variant="light"
               >
-                support@pwnage.com
+                magicbyzeko@gmail.com
               </Button>
               <Button
                 as={Link}
-                href="https://webcodebuilders.repl.co/"
                 className="flex items-center gap-1 justify-start text-slate-200"
                 variant="light"
               >
-                Pwnage está ubicado en California, EE. UU.
+                Envíos a todo Argentina garantizados.
               </Button>
             </div>
           </div>

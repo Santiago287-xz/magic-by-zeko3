@@ -16,7 +16,7 @@ export default function ProductCard({
   const images = [
     selected_product.metadata.image_1,
     selected_product.metadata.image_2,
-    selected_product.images[0],
+    selected_product.metadata.image_3,
   ];
   return (
     <div className="rounded-lg mt-8 mx-auto">

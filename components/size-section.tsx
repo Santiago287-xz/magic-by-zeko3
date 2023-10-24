@@ -1,6 +1,6 @@
 import { Image } from "@nextui-org/react";
 
-export default function SizeSection({ image }: { image: string }) {
+export default function SizeSection() {
   return (
     <section className="bg-gradient-to-b from-foreground/10 to-foreground/5 flex justify-center">
       <main className="flex justify-evenly flex-col md:flex-row w-4/5 md:w-full py-8">
@@ -20,7 +20,7 @@ export default function SizeSection({ image }: { image: string }) {
           </ul>
         </article>
         <div>
-          <Image alt={image} src={image} className="h-auto max-h-[500px] my-8 object-contain" />
+          <Image alt={'size-image'} src={'https://media.discordapp.net/attachments/1019381524149305426/1165126923685474404/mousepad-size.png?ex=6545b801&is=65334301&hm=27b54110eb5aaff0896ced392aeddbcc2c42286d5380320b9139e0eaad7b2805&=&width=947&height=670'} className="h-auto max-h-[500px] my-8 object-contain" />
         </div>
         <div>
           <span className="font-bold text-md md:text-xl lg:text-2xl text-foreground-500">
